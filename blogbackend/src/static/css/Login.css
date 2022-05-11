@@ -1,0 +1,27 @@
+.login-form{
+    height: 800px;
+    background-image: url('../img/bcg.jpg');
+    background-size: cover;
+}
+.login-title{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20 0;
+}
+.form-wrapper{
+    margin-top: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+width: 100%;
+}
